@@ -23,6 +23,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 8px 24px;
 }
 
 .border {
@@ -56,4 +57,16 @@ a {
     border-style: 4px;
     color: $white-light;
     padding: 8px;
+}
+
+.img-profile {
+    width: 38px;
+    height: 38px;
+    background: $gray-2;
+    border-radius: 50%;
+}
+
+.container-post {
+    display: flex;
+    column-gap: 2rem;
 }

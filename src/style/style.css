@@ -697,6 +697,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 8px 24px;
 }
 
 .border {
@@ -728,4 +729,17 @@ a {
   border-style: 4px;
   color: #FAFCFC;
   padding: 8px;
+}
+
+.img-profile {
+  width: 38px;
+  height: 38px;
+  background: #4E4E50;
+  border-radius: 50%;
+}
+
+.container-post {
+  display: flex;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
 }/*# sourceMappingURL=style.css.map */

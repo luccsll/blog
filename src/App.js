@@ -6,7 +6,6 @@ function App() {
     <>
       <Header />
       <Articles/>
-      <h1>Meu blog</h1>
     </>
   );
 }
